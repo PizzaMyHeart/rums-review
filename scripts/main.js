@@ -1,4 +1,5 @@
-/*Smooth scroll effect lines 12-48*/
+$(document).ready(function() {
+/*Smooth scroll effect lines 1-37*/
 // Select all links with hashes
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
@@ -35,3 +36,8 @@ $('a[href*="#"]')
       }
     }
   });
+    
+})
+
+
+
