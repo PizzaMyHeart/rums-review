@@ -37,6 +37,7 @@ body {
     margin-bottom: 0;
     font-family: "PT Sans", sans-serif;
     border-style: none;
+    background-color: #00000000;
 }
 
 .nav {
@@ -58,6 +59,10 @@ body {
     width: auto;
 }
 
+
+.dropdown:active {
+    background-color: #00000000;
+}
 
 
 #sponsor {
