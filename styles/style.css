@@ -1,0 +1,159 @@
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.Site-content {
+    flex: 1;
+    margin-top: 0;
+}
+
+
+
+.social {
+    margin: 10px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.right {
+    text-align: right;
+}
+
+body {
+    background-color: #e1e8f0;
+}
+
+#header {
+    background-image: url(/images/jumbotron.jpeg);
+    background-size: cover;
+    padding-top: 10px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    font-family: "PT Sans", sans-serif;
+    border-style: none;
+}
+
+.nav {
+    padding-right: 20px;
+}
+
+.navbar .navbar-nav > li > a {
+    color: darkslategray;
+    font-size: 15px;
+}
+
+.navbar .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #00000000;
+    color: black;
+}
+
+.navbar-header>img {
+    height: 25%;
+    width: auto;
+}
+
+
+
+#sponsor {
+    border-style: solid;
+    border-radius: 100px;
+    border-width: thin;
+    padding: 0;
+}
+
+
+.jumbotron {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 50px;
+    padding-bottom: 50px;
+    background: transparent;
+    height: 75vh;
+}
+
+
+
+
+#vol {
+    font-size: 130px;
+    text-align: right;
+    font-family: 'Cabin Sketch', cursive;
+    color: whitesmoke;
+    margin-right: 0;
+}
+
+#voltitle {
+    font-size: 35px;
+    text-align: right;
+    font-family: 'PT sans';
+    color: white;
+}
+
+
+#readnow {
+    margin-right: 50%;
+    margin-left: 50%;
+    margin-bottom: 10px;
+}
+
+
+
+#panel {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.fourpanel {
+    margin: 0;
+    padding: 50px;
+    height: 500px;
+    padding: 10px;
+}
+
+
+#secondrow {
+    margin-top: 10px;
+}
+
+
+#foodmedic {
+    background-image: url("https://static1.squarespace.com/static/5a01e91f29f187cb01b887fd/5a033850652dea555a8d1d9f/5a033b6ac83025cfb2067ed5/1510840246786/Hazel-Wallave.png?format=750w");
+    height: 500px;
+    padding: 10px;
+}
+
+#farthing {
+    background-image: url("http://www.sussex.ac.uk/wcm/assets/media/291/content/11007.250x333.jpg");
+    background-size: 100% auto;
+    color: white;
+    height: 500px;
+    padding: 10px;
+}
+
+#cbt {
+    background-image: url("https://emojipedia-us.s3.amazonaws.com/socialmedia/google/110/brain_1f9e0.png");
+    background-size: 130% auto;
+    height: 500px;
+    padding: 10px;
+}
+
+#perspectives {
+    background-image: url("https://s-i.huffpost.com/gen/1720265/images/o-PERSPECTIVE-facebook.jpg");
+    background-size: 250% auto;
+    height: 500px;
+    padding: 10px;
+}
+
+#welcome {
+    padding: 10px 50px;
+}
+
+#news {
+    padding: 50px;
+}
